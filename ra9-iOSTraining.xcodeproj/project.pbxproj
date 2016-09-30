@@ -1,0 +1,656 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B24DD3E3542CFF594829CE0C /* libPods-ra9-iOSTraining.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8538EEC856CEA146BF57F84F /* libPods-ra9-iOSTraining.a */; };
+		CC519CDC1D9E120500DDB88D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CC519CDB1D9E120500DDB88D /* main.m */; };
+		CC519CDF1D9E120500DDB88D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CC519CDE1D9E120500DDB88D /* AppDelegate.m */; };
+		CC519CE71D9E120500DDB88D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC519CE61D9E120500DDB88D /* Assets.xcassets */; };
+		CC519CF51D9E120500DDB88D /* ra9_iOSTrainingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CC519CF41D9E120500DDB88D /* ra9_iOSTrainingTests.m */; };
+		CC519D001D9E120500DDB88D /* ra9_iOSTrainingUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CC519CFF1D9E120500DDB88D /* ra9_iOSTrainingUITests.m */; };
+		CC519D131D9E190200DDB88D /* DantaiTopStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC519D121D9E190200DDB88D /* DantaiTopStoryboard.storyboard */; };
+		CC519D161D9E313600DDB88D /* DantaiTopController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC519D151D9E313600DDB88D /* DantaiTopController.m */; };
+		CC519D191D9E328300DDB88D /* RenrakuListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC519D181D9E328300DDB88D /* RenrakuListViewController.m */; };
+		CC519D201D9E33A700DDB88D /* KaiwaListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC519D1F1D9E33A700DDB88D /* KaiwaListViewController.m */; };
+		CC519D231D9E373700DDB88D /* NakamaListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC519D221D9E373700DDB88D /* NakamaListViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CC519CF11D9E120500DDB88D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC519CCF1D9E120400DDB88D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC519CD61D9E120500DDB88D;
+			remoteInfo = "ra9-iOSTraining";
+		};
+		CC519CFC1D9E120500DDB88D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC519CCF1D9E120400DDB88D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC519CD61D9E120500DDB88D;
+			remoteInfo = "ra9-iOSTraining";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06B48F61A7D5DC4A63395F2D /* Pods-ra9-iOSTraining.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ra9-iOSTraining.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ra9-iOSTraining/Pods-ra9-iOSTraining.debug.xcconfig"; sourceTree = "<group>"; };
+		772C17F2036A6B03D48BF039 /* Pods-ra9-iOSTraining.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ra9-iOSTraining.release.xcconfig"; path = "Pods/Target Support Files/Pods-ra9-iOSTraining/Pods-ra9-iOSTraining.release.xcconfig"; sourceTree = "<group>"; };
+		8538EEC856CEA146BF57F84F /* libPods-ra9-iOSTraining.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ra9-iOSTraining.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC519CD71D9E120500DDB88D /* ra9-iOSTraining.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ra9-iOSTraining.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC519CDB1D9E120500DDB88D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CC519CDD1D9E120500DDB88D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CC519CDE1D9E120500DDB88D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CC519CE61D9E120500DDB88D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CC519CEB1D9E120500DDB88D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC519CF01D9E120500DDB88D /* ra9-iOSTrainingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ra9-iOSTrainingTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC519CF41D9E120500DDB88D /* ra9_iOSTrainingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ra9_iOSTrainingTests.m; sourceTree = "<group>"; };
+		CC519CF61D9E120500DDB88D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC519CFB1D9E120500DDB88D /* ra9-iOSTrainingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ra9-iOSTrainingUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC519CFF1D9E120500DDB88D /* ra9_iOSTrainingUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ra9_iOSTrainingUITests.m; sourceTree = "<group>"; };
+		CC519D011D9E120500DDB88D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC519D121D9E190200DDB88D /* DantaiTopStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = DantaiTopStoryboard.storyboard; sourceTree = "<group>"; };
+		CC519D141D9E313600DDB88D /* DantaiTopController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DantaiTopController.h; sourceTree = "<group>"; };
+		CC519D151D9E313600DDB88D /* DantaiTopController.m */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 4; lastKnownFileType = sourcecode.c.objc; path = DantaiTopController.m; sourceTree = "<group>"; tabWidth = 4; };
+		CC519D171D9E328300DDB88D /* RenrakuListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RenrakuListViewController.h; sourceTree = "<group>"; };
+		CC519D181D9E328300DDB88D /* RenrakuListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = RenrakuListViewController.m; sourceTree = "<group>"; wrapsLines = 1; };
+		CC519D1E1D9E33A700DDB88D /* KaiwaListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KaiwaListViewController.h; sourceTree = "<group>"; };
+		CC519D1F1D9E33A700DDB88D /* KaiwaListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KaiwaListViewController.m; sourceTree = "<group>"; };
+		CC519D211D9E373700DDB88D /* NakamaListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NakamaListViewController.h; sourceTree = "<group>"; };
+		CC519D221D9E373700DDB88D /* NakamaListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NakamaListViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC519CD41D9E120500DDB88D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B24DD3E3542CFF594829CE0C /* libPods-ra9-iOSTraining.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC519CED1D9E120500DDB88D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC519CF81D9E120500DDB88D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ABE032A64AA45443C44FE274 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8538EEC856CEA146BF57F84F /* libPods-ra9-iOSTraining.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CC519CCE1D9E120400DDB88D = {
+			isa = PBXGroup;
+			children = (
+				CC519CD91D9E120500DDB88D /* ra9-iOSTraining */,
+				CC519CF31D9E120500DDB88D /* ra9-iOSTrainingTests */,
+				CC519CFE1D9E120500DDB88D /* ra9-iOSTrainingUITests */,
+				CC519CD81D9E120500DDB88D /* Products */,
+				D9783F9EBD1C33FE3DC96CF5 /* Pods */,
+				ABE032A64AA45443C44FE274 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CC519CD81D9E120500DDB88D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC519CD71D9E120500DDB88D /* ra9-iOSTraining.app */,
+				CC519CF01D9E120500DDB88D /* ra9-iOSTrainingTests.xctest */,
+				CC519CFB1D9E120500DDB88D /* ra9-iOSTrainingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC519CD91D9E120500DDB88D /* ra9-iOSTraining */ = {
+			isa = PBXGroup;
+			children = (
+				CC519D111D9E186900DDB88D /* Controls */,
+				CC519D0D1D9E185A00DDB88D /* Models */,
+				CC519D0E1D9E185A00DDB88D /* Services */,
+				CC519D0F1D9E185A00DDB88D /* Stores */,
+				CC519D101D9E185A00DDB88D /* Views */,
+				CC519CDD1D9E120500DDB88D /* AppDelegate.h */,
+				CC519CDE1D9E120500DDB88D /* AppDelegate.m */,
+				CC519CEB1D9E120500DDB88D /* Info.plist */,
+				CC519CE61D9E120500DDB88D /* Assets.xcassets */,
+				CC519CDA1D9E120500DDB88D /* Supporting Files */,
+			);
+			path = "ra9-iOSTraining";
+			sourceTree = "<group>";
+		};
+		CC519CDA1D9E120500DDB88D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CC519CDB1D9E120500DDB88D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CC519CF31D9E120500DDB88D /* ra9-iOSTrainingTests */ = {
+			isa = PBXGroup;
+			children = (
+				CC519CF41D9E120500DDB88D /* ra9_iOSTrainingTests.m */,
+				CC519CF61D9E120500DDB88D /* Info.plist */,
+			);
+			path = "ra9-iOSTrainingTests";
+			sourceTree = "<group>";
+		};
+		CC519CFE1D9E120500DDB88D /* ra9-iOSTrainingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CC519CFF1D9E120500DDB88D /* ra9_iOSTrainingUITests.m */,
+				CC519D011D9E120500DDB88D /* Info.plist */,
+			);
+			path = "ra9-iOSTrainingUITests";
+			sourceTree = "<group>";
+		};
+		CC519D0D1D9E185A00DDB88D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CC519D0E1D9E185A00DDB88D /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		CC519D0F1D9E185A00DDB88D /* Stores */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Stores;
+			sourceTree = "<group>";
+		};
+		CC519D101D9E185A00DDB88D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CC519D111D9E186900DDB88D /* Controls */ = {
+			isa = PBXGroup;
+			children = (
+				CC519D141D9E313600DDB88D /* DantaiTopController.h */,
+				CC519D151D9E313600DDB88D /* DantaiTopController.m */,
+				CC519D121D9E190200DDB88D /* DantaiTopStoryboard.storyboard */,
+				CC519D171D9E328300DDB88D /* RenrakuListViewController.h */,
+				CC519D181D9E328300DDB88D /* RenrakuListViewController.m */,
+				CC519D1E1D9E33A700DDB88D /* KaiwaListViewController.h */,
+				CC519D1F1D9E33A700DDB88D /* KaiwaListViewController.m */,
+				CC519D211D9E373700DDB88D /* NakamaListViewController.h */,
+				CC519D221D9E373700DDB88D /* NakamaListViewController.m */,
+			);
+			path = Controls;
+			sourceTree = "<group>";
+		};
+		D9783F9EBD1C33FE3DC96CF5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				06B48F61A7D5DC4A63395F2D /* Pods-ra9-iOSTraining.debug.xcconfig */,
+				772C17F2036A6B03D48BF039 /* Pods-ra9-iOSTraining.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC519CD61D9E120500DDB88D /* ra9-iOSTraining */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC519D041D9E120500DDB88D /* Build configuration list for PBXNativeTarget "ra9-iOSTraining" */;
+			buildPhases = (
+				6120FCB4F733A0AB952842FC /* Check Pods Manifest.lock */,
+				CC519CD31D9E120500DDB88D /* Sources */,
+				CC519CD41D9E120500DDB88D /* Frameworks */,
+				CC519CD51D9E120500DDB88D /* Resources */,
+				3A8EC3FCEC848DA122983FF8 /* Embed Pods Frameworks */,
+				3E95606C26BE04248348B8D2 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ra9-iOSTraining";
+			productName = "ra9-iOSTraining";
+			productReference = CC519CD71D9E120500DDB88D /* ra9-iOSTraining.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CC519CEF1D9E120500DDB88D /* ra9-iOSTrainingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC519D071D9E120500DDB88D /* Build configuration list for PBXNativeTarget "ra9-iOSTrainingTests" */;
+			buildPhases = (
+				CC519CEC1D9E120500DDB88D /* Sources */,
+				CC519CED1D9E120500DDB88D /* Frameworks */,
+				CC519CEE1D9E120500DDB88D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC519CF21D9E120500DDB88D /* PBXTargetDependency */,
+			);
+			name = "ra9-iOSTrainingTests";
+			productName = "ra9-iOSTrainingTests";
+			productReference = CC519CF01D9E120500DDB88D /* ra9-iOSTrainingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CC519CFA1D9E120500DDB88D /* ra9-iOSTrainingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC519D0A1D9E120500DDB88D /* Build configuration list for PBXNativeTarget "ra9-iOSTrainingUITests" */;
+			buildPhases = (
+				CC519CF71D9E120500DDB88D /* Sources */,
+				CC519CF81D9E120500DDB88D /* Frameworks */,
+				CC519CF91D9E120500DDB88D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC519CFD1D9E120500DDB88D /* PBXTargetDependency */,
+			);
+			name = "ra9-iOSTrainingUITests";
+			productName = "ra9-iOSTrainingUITests";
+			productReference = CC519CFB1D9E120500DDB88D /* ra9-iOSTrainingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC519CCF1D9E120400DDB88D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "トゥアンアイン";
+				TargetAttributes = {
+					CC519CD61D9E120500DDB88D = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 5FLE9ZKHYR;
+						ProvisioningStyle = Automatic;
+					};
+					CC519CEF1D9E120500DDB88D = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 5FLE9ZKHYR;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CC519CD61D9E120500DDB88D;
+					};
+					CC519CFA1D9E120500DDB88D = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 5FLE9ZKHYR;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CC519CD61D9E120500DDB88D;
+					};
+				};
+			};
+			buildConfigurationList = CC519CD21D9E120400DDB88D /* Build configuration list for PBXProject "ra9-iOSTraining" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CC519CCE1D9E120400DDB88D;
+			productRefGroup = CC519CD81D9E120500DDB88D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC519CD61D9E120500DDB88D /* ra9-iOSTraining */,
+				CC519CEF1D9E120500DDB88D /* ra9-iOSTrainingTests */,
+				CC519CFA1D9E120500DDB88D /* ra9-iOSTrainingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC519CD51D9E120500DDB88D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC519D131D9E190200DDB88D /* DantaiTopStoryboard.storyboard in Resources */,
+				CC519CE71D9E120500DDB88D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC519CEE1D9E120500DDB88D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC519CF91D9E120500DDB88D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3A8EC3FCEC848DA122983FF8 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ra9-iOSTraining/Pods-ra9-iOSTraining-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3E95606C26BE04248348B8D2 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ra9-iOSTraining/Pods-ra9-iOSTraining-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6120FCB4F733A0AB952842FC /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC519CD31D9E120500DDB88D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC519CDF1D9E120500DDB88D /* AppDelegate.m in Sources */,
+				CC519D191D9E328300DDB88D /* RenrakuListViewController.m in Sources */,
+				CC519D201D9E33A700DDB88D /* KaiwaListViewController.m in Sources */,
+				CC519D231D9E373700DDB88D /* NakamaListViewController.m in Sources */,
+				CC519CDC1D9E120500DDB88D /* main.m in Sources */,
+				CC519D161D9E313600DDB88D /* DantaiTopController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC519CEC1D9E120500DDB88D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC519CF51D9E120500DDB88D /* ra9_iOSTrainingTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC519CF71D9E120500DDB88D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC519D001D9E120500DDB88D /* ra9_iOSTrainingUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CC519CF21D9E120500DDB88D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC519CD61D9E120500DDB88D /* ra9-iOSTraining */;
+			targetProxy = CC519CF11D9E120500DDB88D /* PBXContainerItemProxy */;
+		};
+		CC519CFD1D9E120500DDB88D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC519CD61D9E120500DDB88D /* ra9-iOSTraining */;
+			targetProxy = CC519CFC1D9E120500DDB88D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CC519D021D9E120500DDB88D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CC519D031D9E120500DDB88D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CC519D051D9E120500DDB88D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06B48F61A7D5DC4A63395F2D /* Pods-ra9-iOSTraining.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5FLE9ZKHYR;
+				INFOPLIST_FILE = "ra9-iOSTraining/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "freedom.ra9-iOSTraining";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CC519D061D9E120500DDB88D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 772C17F2036A6B03D48BF039 /* Pods-ra9-iOSTraining.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5FLE9ZKHYR;
+				INFOPLIST_FILE = "ra9-iOSTraining/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "freedom.ra9-iOSTraining";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CC519D081D9E120500DDB88D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 5FLE9ZKHYR;
+				INFOPLIST_FILE = "ra9-iOSTrainingTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "freedom.ra9-iOSTrainingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ra9-iOSTraining.app/ra9-iOSTraining";
+			};
+			name = Debug;
+		};
+		CC519D091D9E120500DDB88D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 5FLE9ZKHYR;
+				INFOPLIST_FILE = "ra9-iOSTrainingTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "freedom.ra9-iOSTrainingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ra9-iOSTraining.app/ra9-iOSTraining";
+			};
+			name = Release;
+		};
+		CC519D0B1D9E120500DDB88D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 5FLE9ZKHYR;
+				INFOPLIST_FILE = "ra9-iOSTrainingUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "freedom.ra9-iOSTrainingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "ra9-iOSTraining";
+			};
+			name = Debug;
+		};
+		CC519D0C1D9E120500DDB88D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 5FLE9ZKHYR;
+				INFOPLIST_FILE = "ra9-iOSTrainingUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "freedom.ra9-iOSTrainingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "ra9-iOSTraining";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC519CD21D9E120400DDB88D /* Build configuration list for PBXProject "ra9-iOSTraining" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC519D021D9E120500DDB88D /* Debug */,
+				CC519D031D9E120500DDB88D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC519D041D9E120500DDB88D /* Build configuration list for PBXNativeTarget "ra9-iOSTraining" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC519D051D9E120500DDB88D /* Debug */,
+				CC519D061D9E120500DDB88D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC519D071D9E120500DDB88D /* Build configuration list for PBXNativeTarget "ra9-iOSTrainingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC519D081D9E120500DDB88D /* Debug */,
+				CC519D091D9E120500DDB88D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC519D0A1D9E120500DDB88D /* Build configuration list for PBXNativeTarget "ra9-iOSTrainingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC519D0B1D9E120500DDB88D /* Debug */,
+				CC519D0C1D9E120500DDB88D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CC519CCF1D9E120400DDB88D /* Project object */;
+}
