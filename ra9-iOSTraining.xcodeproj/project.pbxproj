@@ -20,6 +20,8 @@
 		CC519D231D9E373700DDB88D /* NakamaListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC519D221D9E373700DDB88D /* NakamaListViewController.m */; };
 		CC6B48811D9E75410020B32E /* ApiClientBase.m in Sources */ = {isa = PBXBuildFile; fileRef = CC6B48801D9E75410020B32E /* ApiClientBase.m */; };
 		CC6B48841D9E78890020B32E /* DantaiService.m in Sources */ = {isa = PBXBuildFile; fileRef = CC6B48831D9E78890020B32E /* DantaiService.m */; };
+		CC6B48871D9E7B190020B32E /* DantaiMembersApiClient.m in Sources */ = {isa = PBXBuildFile; fileRef = CC6B48861D9E7B190020B32E /* DantaiMembersApiClient.m */; };
+		CC6B488A1D9E7B480020B32E /* DantaiMembersStore.m in Sources */ = {isa = PBXBuildFile; fileRef = CC6B48891D9E7B480020B32E /* DantaiMembersStore.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +68,10 @@
 		CC6B48801D9E75410020B32E /* ApiClientBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApiClientBase.m; sourceTree = "<group>"; };
 		CC6B48821D9E78890020B32E /* DantaiService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DantaiService.h; sourceTree = "<group>"; };
 		CC6B48831D9E78890020B32E /* DantaiService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DantaiService.m; sourceTree = "<group>"; };
+		CC6B48851D9E7B190020B32E /* DantaiMembersApiClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DantaiMembersApiClient.h; sourceTree = "<group>"; };
+		CC6B48861D9E7B190020B32E /* DantaiMembersApiClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DantaiMembersApiClient.m; sourceTree = "<group>"; };
+		CC6B48881D9E7B480020B32E /* DantaiMembersStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DantaiMembersStore.h; sourceTree = "<group>"; };
+		CC6B48891D9E7B480020B32E /* DantaiMembersStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DantaiMembersStore.m; sourceTree = "<group>"; };
 		ECA999AA2A497CD29F267660 /* Pods-ra9-iOSTraining.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ra9-iOSTraining.release.xcconfig"; path = "Pods/Target Support Files/Pods-ra9-iOSTraining/Pods-ra9-iOSTraining.release.xcconfig"; sourceTree = "<group>"; };
 		F977465506069D685ED0E8D6 /* Pods-ra9-iOSTraining.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ra9-iOSTraining.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ra9-iOSTraining/Pods-ra9-iOSTraining.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -189,6 +195,8 @@
 			isa = PBXGroup;
 			children = (
 				CC6B487D1D9E74E30020B32E /* Http */,
+				CC6B48881D9E7B480020B32E /* DantaiMembersStore.h */,
+				CC6B48891D9E7B480020B32E /* DantaiMembersStore.m */,
 			);
 			path = Stores;
 			sourceTree = "<group>";
@@ -220,6 +228,8 @@
 			isa = PBXGroup;
 			children = (
 				CC6B487E1D9E74E30020B32E /* Common */,
+				CC6B48851D9E7B190020B32E /* DantaiMembersApiClient.h */,
+				CC6B48861D9E7B190020B32E /* DantaiMembersApiClient.m */,
 			);
 			path = Http;
 			sourceTree = "<group>";
@@ -429,12 +439,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				CC519CDF1D9E120500DDB88D /* AppDelegate.m in Sources */,
+				CC6B48871D9E7B190020B32E /* DantaiMembersApiClient.m in Sources */,
 				CC519D191D9E328300DDB88D /* RenrakuListViewController.m in Sources */,
 				CC519D201D9E33A700DDB88D /* KaiwaListViewController.m in Sources */,
 				CC6B48811D9E75410020B32E /* ApiClientBase.m in Sources */,
 				CC6B48841D9E78890020B32E /* DantaiService.m in Sources */,
 				CC519D231D9E373700DDB88D /* NakamaListViewController.m in Sources */,
 				CC519CDC1D9E120500DDB88D /* main.m in Sources */,
+				CC6B488A1D9E7B480020B32E /* DantaiMembersStore.m in Sources */,
 				CC519D161D9E313600DDB88D /* DantaiTopController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
