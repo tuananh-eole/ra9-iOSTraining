@@ -2,3 +2,17 @@
 ############
 
 Pods/Realm/core/librealm-ios.a
+
+# Bundler
+vendor/
+
+# cocoapods
+Pods/
+
+# OSX 10.9
+.DS_Store
+.swp
+
+# Xcode 5.0.1
+xcuserdata
+*.xccheckout
